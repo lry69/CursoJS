@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Panel de actividades</title>
+<header>
+  <h1>Mi panel de actividades</h1>
+  <nav>
+    <a href="#tareas">Tareas</a>
+    <a href="#nueva">Nueva tarea</a>
+  </nav>
+</header>
+<main>
+  <section id="tareas">
+    <h2>Tareas de hoy</h2>
+    <ul>
+      <li>Comprar café <button>Completar</button></li>
+      <li>Preparar el informe</li>
+    </ul>
+<form>
+  <label for="titulo">Título de la tarea</label>
+  <input type="text" id="titulo" required maxlength="80">
+  <label for="descripcion">Descripción</label>
+  <textarea id="descripcion"></textarea>
+  <label for="prioridad">Prioridad</label>
+  <select id="prioridad">
+    <option>baja</option>
+    <option>media</option>
+    <option>alta</option>
+  </select>
+  <button>Crear tarea</button>
+</form>
+    <p>
+      Entrega el
+      <time datetime="2026-03-15">15 de marzo</time>.
+    </p>
+  </section>
+</main>
+<footer>
+  <p>Hecho con HTML</p>
+</footer>
+</html>
